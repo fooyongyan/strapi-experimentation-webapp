@@ -1,12 +1,10 @@
 import React from 'react';
 import './Article.css';
 import ArticleApi from '../../api/strapi/Articles';
-import {useParams, useHistory} from 'react-router-dom';
-import Showdown from 'showdown';
+import {useParams} from 'react-router-dom';
 import MarkdownView from 'react-showdown';
 export default function Article ( props ) {
 
-    const history = useHistory();
     const params = useParams();
     //console.log(params);
     const [ article, setArticle ] = React.useState();
@@ -25,7 +23,7 @@ export default function Article ( props ) {
     function renderDetails () {
         if ( article ) {
             //console.log(article);
-             return (<div>
+             return (<div className = "Article">
                 <h3>
                     {article.title} by {article.username ? article.username : "Unknown" }
                 </h3>

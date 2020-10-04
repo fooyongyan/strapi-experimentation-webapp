@@ -11,12 +11,13 @@ export default function ArticleList ( props ) {
         if ( !articles ) {
             ArticleApi.getArticles()
             .then ( results => {
-                setArticles(results);
                 console.log(results);
+                setArticles(results);
             }).catch ( error => {
                 console.log(error);
             });
         } else {
+            console.log("Articles", articles);
             console.log("Weird")
         }
         //TODO : Start Filling things up

@@ -13,8 +13,10 @@ function App (props) {
         <Switch> 
           <Route path="/Login" component = {Login} />
           <Route path="/Signup" component = {Signup} />
-          <Route path="/Home" render = {() => <Dashboard> <ArticleList /> </Dashboard>} />
-          <Route path="/Article/:id" render = {() => <Dashboard> <Article /> </Dashboard>} />
+          <Dashboard> 
+            <Route path="/Home" render = {() => <ArticleList />} />
+            <Route path="/Article/:id" render = {() => <Article />} />
+          </Dashboard>
           <Redirect to="/Login" />
         </Switch>
       </div> 

@@ -1,5 +1,5 @@
 import axios from 'axios';
-import {api, getToken, isLoggedin} from './Config';
+import {api, getToken} from './Config';
 
 ///Return the logged in users' data
 async function getMe() {

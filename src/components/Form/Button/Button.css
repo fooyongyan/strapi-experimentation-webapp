@@ -1,0 +1,24 @@
+.Button {
+    padding: 10px;
+    border: 0px;
+    border-radius: 6px;
+}
+
+.Primary {
+    background-color: rgb(14, 94, 121);
+    color: white;
+}
+
+.Primary:hover {
+    background-color: lightblue;
+    color: black;
+}
+
+.Secondary {
+    background-color: gray;
+    color: white;
+}
+
+.Secondary:hover {
+    background-color: lightgray;
+}

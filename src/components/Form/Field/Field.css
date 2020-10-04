@@ -1,0 +1,19 @@
+.Field {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.Field label {
+    padding: 10px 0px 0px 0px;
+}
+
+.Field input {
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.Field__Error {
+    color: red;
+    font-size: 90%;
+}

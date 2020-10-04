@@ -1,0 +1,12 @@
+.UserBar {
+    display: grid;
+    grid-template-columns: auto auto;
+    flex-direction: row;
+    font-size: 80%;
+    width: 100%;
+}
+
+.UserControl {
+    text-align: right;
+    padding: 5px;
+}

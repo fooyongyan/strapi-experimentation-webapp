@@ -1,0 +1,12 @@
+.Navlink {
+    max-width: 100px;
+    min-height: 60px;
+    color: white;
+    padding: 10px;
+}
+
+.Navlink:hover {
+    border-bottom: 10px solid white;
+    color: lightblue;
+}
+    

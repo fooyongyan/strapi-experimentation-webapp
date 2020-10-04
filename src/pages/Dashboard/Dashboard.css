@@ -1,0 +1,24 @@
+.Dashboard {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.Dashboard__Body {
+    min-width: 350px;
+    padding: 20px;
+    width: 80%;
+    border: 1px solid black;
+    border-radius: 10px;
+    min-height: 500px;
+}
+
+.Dashboary__Footer {
+    font-size: 80%;
+    text-align: right;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 100%;
+}

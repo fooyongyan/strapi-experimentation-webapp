@@ -1,0 +1,18 @@
+.ArticleCard{
+    margin:3px;
+    width: 30%;
+    min-width: 250px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 80%;
+    background-color: lightgray;
+    padding: 0px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ArticleCard__Body {
+    height: 100%;
+    padding: 0px 10px
+}
